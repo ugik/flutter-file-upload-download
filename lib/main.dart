@@ -40,7 +40,6 @@ class UploadMultipleImageDemo extends StatefulWidget {
 
 class UploadMultipleImageDemoState extends State<UploadMultipleImageDemo> {
   //
-
   String _path;
   Map<String, String> _paths;
   String _extension;
@@ -70,9 +69,13 @@ class UploadMultipleImageDemoState extends State<UploadMultipleImageDemo> {
     if (_multiPick) {
       _paths.forEach((fileName, filePath) => {upload(fileName, filePath)});
     } else {
-      String fileName = _path.split('/').last;
-      String filePath = _path;
-      upload(fileName, filePath);
+      if (_path != null) {
+        String fileName = _path
+            .split('/')
+            .last;
+        String filePath = _path;
+        upload(fileName, filePath);
+      }
     }
   }
 
@@ -89,6 +92,7 @@ class UploadMultipleImageDemoState extends State<UploadMultipleImageDemo> {
     setState(() {
       _tasks.add(uploadTask);
     });
+    _extension = null;
   }
 
   dropDown() {
