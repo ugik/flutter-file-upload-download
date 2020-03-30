@@ -1,6 +1,9 @@
 # file_upload_download
 
-A new Flutter application.
+File upload/download app from: https://www.youtube.com/watch?v=30L5-3eQPK4
+and http://www.coderzheaven.com/2019/06/22/firebase-storage-uploading-and-downloading-files-multi-file-picker/
+
+Cleaned-up and updated
 
 ## Getting Started
 
