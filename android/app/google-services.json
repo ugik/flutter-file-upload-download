@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "538190799604",
+    "firebase_url": "https://kaffine-b996f.firebaseio.com",
+    "project_id": "kaffine-b996f",
+    "storage_bucket": "kaffine-b996f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538190799604:android:e5c55a21f9fcf3dc0174a1",
+        "android_client_info": {
+          "package_name": "org.kaffine.file_upload_download"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538190799604-ua2hp21s8gso5c8gegj96aorkqf9trd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3rRqhgGWKVlygvacCi2E0ode6NG9exR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538190799604-ua2hp21s8gso5c8gegj96aorkqf9trd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
